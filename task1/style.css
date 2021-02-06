@@ -1,0 +1,89 @@
+h1 {
+	width: 80%;
+    margin: 0 auto 8px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    -webkit-text-stroke:3px black;
+}
+body {
+	margin: 0;
+    padding: 0;
+    font-family:"Arial",  sans-serif;
+	text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444;
+}
+.header-background {
+	min-width: 500px;
+    height: 200px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    background:  center url("house.png");
+    background-size: cover;
+    color: #ffffff;
+}
+.title-header {
+    width: 750px;
+    margin: 0 auto;
+ }
+.paragraph {
+	margin: 20px;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+	font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+}
+.text {
+	  font-family: "Arial", sans-serif;
+	  font-size: 15px;
+	  margin: 20px;
+	  color: #000000;
+}
+
+.link {
+	 text-align: center;
+} 
+ a {
+	font-family: "Arial", sans-serif;
+	 color: #000000;
+	 text-decoration: none;
+	 font-size: 20px;
+	
+}
+#orderContainer {
+	font-family: "Arial", sans-serif;
+	font-size: 15px;
+	margin: 20px;
+	line-height: 30px;
+	color: #000000;
+}
+button:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+table {
+	border-collapse: collapse;
+	border: 1px solid rgb(0, 0, 0);
+}
+td {
+	border: 1px solid rgb(0, 0, 0);
+}
+th, td {
+    padding: 10px 15px;
+    font-family:"Arial",  sans-serif;
+    font-size: 15px;
+ }
+ tr > td > a{
+    vertical-align: baseline;
+    text-align: center;
+    padding: 10px 15px;
+    font-family:"Arial",  sans-serif;
+    font-size: 15px;
+ }

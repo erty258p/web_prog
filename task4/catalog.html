@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<title>Каталог</title>
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+
+	<body>
+
+		<header class = "header-background">
+			<div class = "title-header">
+				<h1>Межпространственный магазинчик дядюшки Боба</h1>
+			</div>
+		</header>
+
+		<div id="orderContainer">
+			<table id="table"></table>
+			<script src=./table.js></script>
+			<script>
+				table.addEventListener('click', (element) => { //task4
+				console.warn(element.target.parentNode.id);
+				});
+			</script>
+		</div>
+
+		<section id = "info">
+			<text id = "text_info"></text>
+		</section>
+
+		<section class = "link">
+			<button><a href = "home.html">Хочешь сбежать?</a></button>
+		</section>
+
+
+	</body>
+
+
+</html>
