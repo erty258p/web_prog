@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<title>Каталог</title>
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+
+	<body>
+
+		<header class = "header-background">
+			<div class = "title-header">
+				<h1>Межпространственный магазинчик дядюшки Боба</h1>
+			</div>
+		</header>
+
+		<div id="orderContainer">
+			<table id="table">
+				<script src=./table.js></script>
+				<tr id = "AddLine">
+					<td><input id = "name" type = "text" placeholder = "Name"></td>
+					<td><input id = "description" type = "text" placeholder = "Description"></td>
+					<td><input id = "cost" type = "number" placeholder = "Cost"></td>
+					<td><input id = "currency" type = "text" placeholder = "currency"></td>
+					<td><input id = "size" type = "number" placeholder = "Size"></td>
+					<td><input id = "weight" type = "number" placeholder = "weight"></td>
+					<td><input id = "manufacture" type = "text" placeholder = "manufacture"></td>
+					<td><input id = "date" type = "date" placeholder = "date"></td>
+					<td><button id = "button_addline">Добавить строку</button></td>
+				</tr>
+				<script src=./addline.js></script>
+				<script>
+					table.addEventListener('click', (element) => { //task4
+					console.warn(element.target.closest('tr').id);
+					});
+				</script>
+			</table>
+		</div>
+
+		<section id = "info">
+			<text id = "text_info"></text>
+		</section>
+
+		<section class = "link">
+			<button><a href = "home.html">Хочешь сбежать?</a></button>
+		</section>
+
+
+	</body>
+
+
+</html>
